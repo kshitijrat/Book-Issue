@@ -19,6 +19,7 @@ import lombok.ToString;
 @Entity
 public class Course {
     @Id
+
     private int id;
     private String title;
     private String description;
